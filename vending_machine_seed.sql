@@ -47,3 +47,4 @@ VALUES
     SELECT * FROM vending_machine ORDER BY name DESC 
     SELECT * FROM vending_machine where type = 'snack' ORDER By cost ASC
     SELECT * FROM vending_machine where name, cost * amount 
+    SELECT type FROM vending_machine GROUP BY type
